@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom mauve accents */
+:root {
+  --mauve-50: #fff5f7;
+  --mauve-500: #d87fa1;
+  --mauve-600: #b15a79;
+}
+
+.dark .bg-mauve-50 {
+  background-color: #0b0b0b;
+}
+
+/* small utility to give mauve hover in light mode */
+.hover\:bg-mauve-100:hover {
+  background-color: #ffeef6;
+}
